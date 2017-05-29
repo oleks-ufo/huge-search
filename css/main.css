@@ -1,0 +1,181 @@
+body {
+	font-family: Arial, sans-serif;
+	background: #F1F1F1;
+}
+
+.container {
+	width: 85%;
+	margin: 50px auto;
+}
+
+.search {
+	background: none;
+	border: none;
+	height: 110px;
+	width: 90%;
+	font-size: 100px;
+	font-weight: bold;
+	color: #ec5a62;
+}
+
+*::-webkit-input-placeholder {
+    color: #C2C2C2;
+}
+*:-moz-placeholder {
+    color: #C2C2C2;
+}
+*::-moz-placeholder {
+    color: #C2C2C2;
+}
+*:-ms-input-placeholder {
+    color: #C2C2C2;
+}
+
+.button {
+	height: 90px;
+	width: 90px;
+	background: none;
+	border: none;
+	background-image: url('../img/magnifier.svg');
+	background-size: 90px 90px;
+	position: relative;
+	top: 10px;
+}  
+
+.search, .button {
+	 outline-style: none;
+}
+
+main {
+	margin-top: 40px;
+}
+
+.column {
+		display: inline-block;
+		width: 33%;	
+		color: #C1C1C1;
+		letter-spacing: 1px;
+		/*background: rgba(0,0,0,.5);*/
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.li-item {
+	background: #EBEBED;
+	height: 70px;
+	width: 85%;
+	margin-top: 5px;
+	border-radius: 5px;
+	line-height: 70px;
+}
+
+.li-item:hover {
+	background: #E4E4E6;
+}
+
+ul li h4 {
+	letter-spacing: 0;
+	margin: 0 70px;
+}
+
+.avatar {
+	position: relative;	
+	height: 50px;	
+	width: 50px;
+  top: 10px;
+  left: 10px;	
+	background-size: 50px 50px;
+	border-radius: 50%;
+	float: left;	
+}
+
+/*PEOPLE*/
+
+.av-1 {
+	background-image: url('../img/avatars/SaraSoueidan.jpeg');
+}
+
+.av-2 {
+	background-image: url('../img/avatars/RachelSmith.png');
+}
+
+.av-3 {
+	background-image: url('../img/avatars/PeterFinlan.jpeg');
+}
+
+.av-4 {
+	background-image: url('../img/avatars/PatrickCox.png');
+}
+
+.av-5 {
+	background-image: url('../img/avatars/TimHolman.jpeg');
+}
+
+.av-6 {
+	background-image: url('../img/avatars/ShaunDona.jpeg');
+}
+
+.thumb {
+	height: 50px;	
+	width: 50px;
+	position: relative;
+	top: 10px;
+  left: 10px;
+  background-size: 50px 50px;
+	float: left;	
+}
+
+/*POPULAR*/
+
+.pop-1 {
+	background-image: url('../img/thumbs/PagePreloadingEffect.png');
+}
+
+.pop-2 {
+	background-image: url('../img/thumbs/ArrowNavigationStyles.png');
+}
+
+.pop-3 {
+	background-image: url('../img/thumbs/HoverEffectsIdeasNew.png');
+}
+
+.pop-4 {
+	background-image: url('../img/thumbs/FreebieHalcyonDays.png');
+}
+
+.pop-5 {
+	background-image: url('../img/thumbs/ArticleIntroEffects.png');
+}
+
+.pop-6 {
+	background-image: url('../img/thumbs/DraggableDualViewSlideshow.png');
+}
+
+/*RECENT*/
+
+.rec-1 {
+	background-image: url('../img/thumbs/TooltipStylesInspiration.png');
+}
+
+.rec-2 {
+	background-image: url('../img/thumbs/AnimatedHeaderBackgrounds.png');
+}
+
+.rec-3 {
+	background-image: url('../img/thumbs/OffCanvas.png');
+}
+
+.rec-4 {
+	background-image: url('../img/thumbs/TabStyles.png');
+}
+
+.rec-5 {
+	background-image: url('../img/thumbs/ResponsiveSVGs.png');
+}
+
+.rec-6 {
+	background-image: url('../img/thumbs/NotificationStyles.png');
+}
